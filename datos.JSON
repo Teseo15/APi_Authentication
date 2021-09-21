@@ -1,0 +1,101 @@
+[
+    {
+        "titulo" : "El conde de Montecristo",
+        "author": "Alexandre Dumas",
+        "publicación":"1844",
+        "generos":["Clásico","Misterio","Ficción histórica","Ficción","Aventura"],
+        "imagen" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo391c-bjUG3V3DKCU3rhg-8tiFN_0SCSUWA&usqp=CAU"
+    },
+    {
+        "titulo" : "El Sexto", 
+        "author": "José María Arguedas",
+        "publicación":"1961",
+        "generos" :["Carcelaria","Narrativa","Testimonio"],
+        "imagen" : "https://images-na.ssl-images-amazon.com/images/I/41SKSN0e1BL._SX210_.jpg"
+    },
+    {
+        "titulo" : "El lazarillo de Tormes",
+        "author": "Anónimo",
+        "publicación": "1554",
+        "generos" :["Ficción histórica","Pintoresca","Biográfica"],
+        "imagen" : "https://simehbucket.s3.amazonaws.com/images/5a2d2f9c29b2605bc4176f806829f51a-full.jpg"
+    },
+    {
+        "titulo" : "El arte de la Guerra", 
+        "author": "Sun Tzu" ,
+        "publicación":"siglo V a.c",
+        "generos" :["Economia","Tratado","Militar"],
+        "imagen" : "https://www.crisol.com.pe/media/catalog/product/cache/e2e8b82a092c31bc903ac0970c9d2409/e/l/el-arte-de-la-guerra-9789583006135-libro-ca01.jpg"
+    },
+    {
+        "titulo" : "Crónicas de una muerte Anunciada", 
+        "author": "Gabriel García Márquez",
+        "publicación":"1981",
+        "generos" :["Policiaca","Narrativa","Tragedia"],
+        "imagen" :"https://www.crisol.com.pe/media/catalog/product/cache/e2e8b82a092c31bc903ac0970c9d2409/c/r/cronica-muerte-anunciada-9788439728382-libro-ca01.jpg"
+    },
+    {
+        "titulo" : "Huída hacía la Libertad",
+        "author" : "Janet y Geoff Benge" ,
+        "publicación": "2002",
+        "generos" :["Biográfica", "Narrativa"],
+        "imagen" :"https://images-na.ssl-images-amazon.com/images/I/51ldu0hc5fL._SX328_BO1,204,203,200_.jpg"
+        
+    },
+    {
+        "titulo" : "Padre de Huérfanos",
+        "author" : "Janet y Geoff Benge",
+        "publicación": "2007",
+        "generos" :["Biográfica", "Narrativa"],
+        "imagen" :"https://images-na.ssl-images-amazon.com/images/I/71HNFtqTURL.jpg"
+        
+    },
+    {
+        "titulo" : "El castillo de los Cárpatos",
+        "author" : "Julio Verne",
+        "publicación": "1892",
+        "generos" :["Ciencia Ficción","Terror"],
+        "imagen" : "https://www.alianzaeditorial.es/imagenes/libros/grande/9788491817710-el-castillo-de-los-carpatos.jpg"
+    },
+    {
+        " titulo" : "De la tierra a la luna",
+        " author" : "Julio Verne",
+        "publicación" :"1865",
+        "generos" :["Cientificas","Ciencia Ficción"],
+        "imagen" :"https://images.cdn3.buscalibre.com/fit-in/360x360/2c/8b/2c8b4c8414cb84d6c62788cb2e96d90b.jpg"
+ 
+    },{
+
+        "titulo": "Graceling",
+        "author": "Kristin Cashore",
+        "publicación" : "2008",
+        "generos":["Aventura","Ciencia Ficción","Fantasía"],
+        "imagen": "https://prodimage.images-bn.com/pimages/9788499181004_p0_v6_s550x406.jpg"
+    
+    
+    },
+    {
+        "titulo" : "Maravilloso Desastre",
+        "author": "Jamie Mcguire",
+        "publicación":"20011",
+        "generos" :["Romántica","New Adult"],
+        "portada" : "https://imagessl6.casadellibro.com/a/l/t5/76/9788483658376.jpg"
+    },
+  
+    {
+        "titulo ": "Orgullo y prejuicio",
+        "author" : "Jane Austen",
+        "publicación":"1813",
+        "generos":["Romántica","Psicológica","Sátira","Costumbres"],
+        "imagen" :"https://covers.alibrate.com/b/59872eaecba2bce50c1f0f62/254d8fa9-0e76-4c81-b2d8-c61933efab16/share"
+    },
+    {
+        "titulo" : "Don Quijote de la Mancha",
+        "author" : "Miguel de Cervantes",
+        "publicación": "1605",
+        "generos":[" Parodia", "Sátira", "Picaresca", "Ficción", "Aventura", "Farsa","Psicológica"],
+        "imagen" : "https://mestasediciones.com/wp-content/uploads/2020/06/OM2-Don-Quijote-de-la-mancha-completo.jpg"
+
+    }
+
+]

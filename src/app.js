@@ -5,7 +5,7 @@ import pkg from '../package.json'
 
 import productsRoute from './routes/products.routes';
 import authRoutes from './routes/auth.routes';
-
+import obraRouter from './routes/obra.routes';
 const app = express();
 
 
@@ -25,4 +25,5 @@ app.get('/',(req,res) =>{
 })
 app.use('/api/productos',productsRoute);
 app.use('/api/auth',authRoutes);
+app.use('/api/obra',obraRouter);
 export default app;
