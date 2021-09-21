@@ -1,7 +1,8 @@
-import app from './app';
+import app from "./app";
 import './database';
 
+app.listen(app.get("port"));
 
+console.log("Server on port", app.get('port'));
 
-app.listen(5000);
 console.log('http://localhost:5000/api/obra');

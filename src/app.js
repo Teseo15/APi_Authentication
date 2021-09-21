@@ -10,6 +10,7 @@ const app = express();
 
 
 app.set('pkg',pkg);
+app.set("port", process.env.PORT || 5000);
 createRoles();
 //Registra los detalles de la solicitud
 app.use(morgan('dev')); 
