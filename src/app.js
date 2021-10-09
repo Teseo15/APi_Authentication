@@ -7,6 +7,7 @@ import productsRoute from './routes/products.routes';
 import authRoutes from './routes/auth.routes';
 import obraRouter from './routes/obra.routes';
 import commentRouter from './routes/comment.routes';
+import storiesRouter from './routes/stories.routes';
 const app = express();
 
 
@@ -29,4 +30,6 @@ app.use('/api/productos',productsRoute);
 app.use('/api/auth',authRoutes);
 app.use('/api/obra',obraRouter);
 app.use('/api/comment',commentRouter);
+app.use('/api/stories',storiesRouter);
+
 export default app;
