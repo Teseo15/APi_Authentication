@@ -5,7 +5,8 @@ const obraSchema = new Schema({
     author : String,
     publicación: String,
     generos: Array,
-    imagen : String
+    imagen : String,
+    sinopsis: String
 })
 
 export default model('Obra',obraSchema);

@@ -1,8 +1,8 @@
 import Obra from "../models/Obra";
 
 export const createObra = async (req,res) =>{
-    const {titulo, author, publicacion,generos,imagen} = req.body;
-    const newObra = new Obra( {titulo, author, publicacion,generos,imagen} )
+    const {titulo, author, publicacion,generos,imagen,sinopsis} = req.body;
+    const newObra = new Obra( {titulo, author, publicacion,generos,imagen,sinopsis} )
     const obraSaved = await newObra.save();
     res.status(201).json(obraSaved);
 }
