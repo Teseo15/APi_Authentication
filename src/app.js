@@ -2,7 +2,7 @@ import express from 'express';
 import morgan from 'morgan';
 import { createRoles } from './libs/initialSetup';
 import pkg from '../package.json'
-
+import cors from "cors";
 import productsRoute from './routes/products.routes';
 import authRoutes from './routes/auth.routes';
 import obraRouter from './routes/obra.routes';
@@ -30,7 +30,7 @@ app.get('/',(req,res) =>{
 const corsOptions = {
     // origin: "http://localhost:3000",
   };
-app.use(cors(corsOptions));
+  app.use(cors(corsOptions));
 app.use('/api/productos',productsRoute);
 app.use('/api/auth',authRoutes);
 app.use('/api/obra',obraRouter);
