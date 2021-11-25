@@ -26,6 +26,11 @@ app.get('/',(req,res) =>{
         version: app.get('pkg').version
     });
 })
+// Middlewares
+const corsOptions = {
+    // origin: "http://localhost:3000",
+  };
+app.use(cors(corsOptions));
 app.use('/api/productos',productsRoute);
 app.use('/api/auth',authRoutes);
 app.use('/api/obra',obraRouter);
