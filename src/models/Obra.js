@@ -6,7 +6,10 @@ const obraSchema = new Schema({
     publicación: String,
     generos: Array,
     imagen : String,
-    sinopsis: String
-})
+    sinopsis: String,
+    precio: Double,
+    disponible:Boolean,
+    fecha: Date,
+    });
 
 export default model('Obra',obraSchema);
