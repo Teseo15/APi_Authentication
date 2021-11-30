@@ -1,17 +1,15 @@
 import Obra from "../models/Obra";
 
 export const createObra = async (req,res) =>{
-    const {titulo, author, publicacion,generos,sinopsis,fecha,precio,disponible} = req.body;
+   
     var imagen;
     if (req.body.imagen=== undefined) {
-        imagen = "https://images.pexels.com/photos/3806244/pexels-photo-3806244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        imagen = "https://images.pexels.com/photos/3806244/pexels-photo-3806244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
     }
     else{
         imagen = req.body.imagen;
     }
-
-    
-
+    const {titulo, author, publicacion,generos,sinopsis,fecha,precio,disponible} = req.body;
     const newObra = new Obra( {titulo, author, publicacion,generos,imagen,sinopsis,precio,disponible,fecha} )
     const obraSaved = await newObra.save();
     res.status(201).json(obraSaved);
