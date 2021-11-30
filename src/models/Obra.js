@@ -7,7 +7,7 @@ const obraSchema = new Schema({
     generos: Array,
     imagen : String,
     sinopsis: String,
-    precio: Int32Array,
+    precio: Number,
     disponible:Boolean,
     fecha: Date,
     });
