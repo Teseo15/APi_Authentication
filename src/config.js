@@ -3,6 +3,6 @@ config();
 
 export default {
   MONGODB_URI: process.env.MONGODB_URI || "mongodb+srv://teseo55:admin123@mini-merm.1oegf.mongodb.net/pruebas",
-  PORT: process.env.PORT || 5000,
+  PORT: process.env.PORT || 9000,
   SECRET: 'products-api'
 };

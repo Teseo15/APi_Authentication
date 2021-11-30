@@ -1,10 +1,20 @@
 import Obra from "../models/Obra";
 
 export const createObra = async (req,res) =>{
-   
+    const imagenes = [
+        "https://images.pexels.com/photos/3806244/pexels-photo-3806244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", 
+        "https://images.pexels.com/photos/3378993/pexels-photo-3378993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "https://images.pexels.com/photos/3345882/pexels-photo-3345882.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "https://images.pexels.com/photos/3183649/pexels-photo-3183649.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "https://images.pexels.com/photos/5756239/pexels-photo-5756239.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "https://images.pexels.com/photos/6075887/pexels-photo-6075887.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "https://images.pexels.com/photos/3358707/pexels-photo-3358707.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    ];
+    
+    const random = Math.floor(Math.random() * imagenes.length);
     var imagen;
-    if (req.body.imagen=== undefined) {
-        imagen = "https://images.pexels.com/photos/3806244/pexels-photo-3806244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
+    if (req.body.imagen=== undefined || req.body.imagen === null ) {
+        imagen = imagenes[random];
     }
     else{
         imagen = req.body.imagen;
